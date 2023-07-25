@@ -3,8 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    
 </head>
 <body>
     Great Job!
+    <form method="POST" action="/add_tweet">
+    <div>
+        <label>title</label>
+            <div>
+                <input type="title"  name="title" id="titleStr">
+            </div>
+        </div>
+
+    <div>
+        <label>text</label>
+            <div>
+                <input type="text"  name="text" id="textStr" required maxlength="280">
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
